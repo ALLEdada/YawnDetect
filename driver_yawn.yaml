@@ -1,0 +1,18 @@
+# YOLOv11 dataset configuration
+path: C:\2025Fall\872AI与交互系统\YawnDetect\Dataset      # 根目录（上一级）
+
+
+train: images/train
+val: images/valid
+test: images/test
+
+
+names:
+  - SafeDriving
+  - Texting
+  - TalkingOnPhone
+  - Drinking
+  - Yawn
+  - Sleepy
+  - Distracted
+  - Dangerous

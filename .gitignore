@@ -1,0 +1,32 @@
+# === Python & Environment ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# === Jupyter / IDE ===
+.ipynb_checkpoints/
+.vscode/
+
+# === YOLO / Ultralytics Outputs ===
+runs/
+*.cache
+*.log
+*.tmp
+
+# === Datasets (keep outside repo or via link) ===
+Dataset/
+data/
+
+# === Models & Large Files ===
+*.pt
+*.onnx
+*.engine
+*.bin
+*.ckpt
+
+# === Misc ===
+*.zip
+*.rar
+*.7z

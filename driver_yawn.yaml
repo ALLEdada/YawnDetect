@@ -20,11 +20,11 @@ test: images/test
 
 
 names:
-  - SafeDriving
-  - Texting
-  - TalkingOnPhone
-  - Drinking
-  - Yawn
-  - Sleepy
+  - DangerousDriving
   - Distracted
-  - Dangerous
+  - Drinking
+  - SafeDriving
+  - SleepyDriving
+  - Yawn
+
+

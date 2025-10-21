@@ -1,5 +1,17 @@
 # YOLOv11 dataset configuration
-path: C:\2025Fall\872AI与交互系统\YawnDetect\Dataset      # 根目录（上一级）
+path: C:\2025Fall\872AI与交互系统\YawnDetect\Dataset      # change the path based on your pc 
+
+# The structure of datasets (Refined2YoloFormatDataset.rar)
+
+# dataset/
+#   images/
+#     train/  *.jpg|png
+#     val/    *.jpg|png
+#     test/   *.jpg|png
+#   labels/
+#     train/  *.txt
+#     val/    *.txt
+#     test/   *.txt
 
 
 train: images/train
